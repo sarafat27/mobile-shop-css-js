@@ -1,0 +1,62 @@
+body{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#container{
+    margin: 100px 0;
+    padding: 50px 70px;
+    background-color:lightgrey;
+    border-radius: 10px;
+  
+}
+#phone{
+    margin-bottom: 20px;
+}
+.product{
+    padding: 15px 20px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+img{
+    height: 120px;
+    width:100px;
+    margin-right: 40px;
+}
+input{
+    height: 20px;
+    width: 30px;
+    margin: 0 10px;
+    background-color:lightgrey;
+}
+.product p{
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: large;
+}
+.fa-plus{
+    margin-right: 60px;
+}
+.product h3{
+    margin-right: 40px;
+}
+.remove{
+    height: 20px;
+    width: 20px;
+}
+.all-price{
+    margin-top: 20px;
+    padding: 0 40px;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px;
+}
+button{
+    margin: 30px;
+    padding: 10px 20px;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+}

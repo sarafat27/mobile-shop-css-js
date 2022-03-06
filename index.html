@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>My shopping cart</h1>
+    </header>
+    <main>
+        <section>
+            <div id="container">
+                <div id="phone" class="product">
+                    <img src="images/product-1.png" alt="">
+                    <p>iPhone 11 128GB Black</p>
+                    <i id="phone-minus" class="fas fa-minus"></i>
+                    <input id="phone-input" type="number" name="" id="" value="1">
+                    <i id="phone-plus" class="fas fa-plus"></i>
+                    <h3>$<span id="phone-total">1219</span></h3>
+                    <img class="remove" src="images/remove.png" alt="">
+                </div>
+                <div id="case" class="product">
+                    <img src="images/product-2.png" alt="">
+                    <p>iPhone 11 Silicone Case</p>
+                    <i id="case-minus" class="fas fa-minus"></i>
+                    <input id="case-input" type="number" name="" id="" value="1">
+                    <i id="case-plus" class="fas fa-plus"></i>
+                    <h3>$<span id="case-total">59</span></h3>
+                    <img class="remove" src="images/remove.png" alt="">
+                </div>
+                <div class="all-price">
+                    <div>
+                        <h3>Subtotal:</h3>
+                        <h3>Tax:</h3>
+                        <h3>Total:</h3>
+                    </div>
+                    <div>
+                        <h3>$<span id="sub-total">1278</span></h3>
+                        <h3>$<span id="tax">127.8</span></h3>
+                        <h3>$<span id="total">1405.8</span></h3>
+                    </div>
+                </div>
+                <button>Check out</button>
+            </div>
+        </section>
+    </main>
+    <script src="new.js"></script>
+</body>
+
+</html>
